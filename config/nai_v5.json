@@ -1,0 +1,30 @@
+{
+  "model": {
+    "name": "nai-v5",
+    "id": "nai/v5",
+    "note": "占位符 - 请替换为实际模型 id 或权重 URL（例如：registry://... 或 https://.../model.ckpt）",
+    "defaults": {
+      "width": 1024,
+      "height": 1024,
+      "steps": 28,
+      "sampler": "ddim",
+      "scale": 7.5,
+      "seed": -1,
+      "enable_v5_advanced": false
+    }
+  },
+  "ui": {
+    "add_model_to_dropdown": true,
+    "panel_controls": [
+      "model",
+      "width",
+      "height",
+      "steps",
+      "sampler",
+      "scale",
+      "seed",
+      "enable_v5_advanced",
+      "preview_toggle"
+    ]
+  }
+}
